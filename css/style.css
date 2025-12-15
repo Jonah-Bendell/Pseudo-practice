@@ -1,0 +1,58 @@
+body{
+    background: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 h2 h4{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4{
+    font-size: 20px;
+}
+
+.container{
+    margin:0 auto;
+    width: 1000px;
+    background: white;
+    padding: 20px;
+}
+
+a{
+    color: red;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: pink;
+}
+a.special{
+    color: blueviolet;
+}
+a.special:hover{
+    color: yellow;
+}
+
+#hover-div{
+    color: white;
+    background-color: blue;
+    padding: 10px;
+}
+#hover-div:hover{
+    background-color: lightblue;
+
+}
+p:first-child{
+    font-weight: bold;
+}
+
+p:last-child{
+    color: aqua;
+}   
+tr:nth-child(even) {
+  background-color: lightgray; 
+}
+tr:nth-child(odd) {
+  background-color: purple; 
+}
